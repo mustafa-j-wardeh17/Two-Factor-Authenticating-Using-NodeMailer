@@ -1,4 +1,4 @@
-# Authentication with Nodemailer
+# Email Auhtentication Using Nodemailer
 
 This repository contains code for implementing account authentication using Nodemailer in an Express.js application. It includes controllers for registering users, logging in, verifying email with OTP, and resending OTP verification.
 
