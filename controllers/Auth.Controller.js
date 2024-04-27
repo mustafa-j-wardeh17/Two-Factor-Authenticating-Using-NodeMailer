@@ -76,7 +76,6 @@ export const verifyOTP = async (req, res) => {
             msg: `Oops: User Doesn't Registered, Please Register.`
         })
     }
-    console.log(`\n\n errrrorrrr\n\n`)
     const findUserOTP = await userOTPVerfication.find({ userId })
     if (findUserOTP.length <= 0) {
         return res.status(400).json({
